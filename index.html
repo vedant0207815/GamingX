@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GameX</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<<style>
+
+body{
+    background:#f5f5f5;
+}
+
+/* Hero Section */
+.hero{
+    background:linear-gradient(to right,#0d6efd,#6610f2);
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+/* Game Cards */
+.card{
+    border:none;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+/* Game Images */
+.card-img-top{
+    height:220px;
+    width:100%;
+    object-fit:cover;
+}
+
+/* Footer */
+footer{
+    background:black;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+</style>
+
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+<div class="container">
+
+<a class="navbar-brand fw-bold" href="#">
+🎮 GameX
+</a>
+
+<button class="navbar-toggler"
+data-bs-toggle="collapse"
+data-bs-target="#menu">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="menu">
+
+<ul class="navbar-nav ms-auto">
+
+<li class="nav-item">
+<a class="nav-link" href="#">Home</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#">Games</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#">Tournament</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#">Contact</a>
+</li>
+
+</ul>
+
+</div>
+</div>
+</nav>
+
+<!-- Hero Section -->
+
+<section class="hero">
+
+<h1>Welcome To GameX Esports</h1>
+
+<p>Play tournaments and win exciting prizes.</p>
+
+<button class="btn btn-warning">
+Join Now
+</button>
+
+</section>
+
+<!-- Search -->
+
+<div class="container my-4">
+
+<input type="text"
+class="form-control"
+placeholder="Search Games">
+
+</div>
+
+<!-- Games -->
+
+<div class="container">
+
+<h2 class="text-center mb-4">
+🔥 Popular Games
+</h2>
+
+<div class="row g-4">
+
+  <!-- BGMI -->
+  <div class="col-md-4">
+    <div class="card">
+      <img src="bgmi.jpg.jpg" class="card-img-top">
+
+      <div class="card-body">
+        <h5>BGMI</h5>
+        <p>Battle Royale Tournament</p>
+        <button class="btn btn-primary">Play Now</button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Free Fire -->
+  <div class="col-md-4">
+    <div class="card">
+      <img src="freefire.jpg.jpg" class="card-img-top">
+
+      <div class="card-body">
+        <h5>Free Fire</h5>
+        <p>Join exciting esports matches</p>
+        <button class="btn btn-danger">Play Now</button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Valorant -->
+  <div class="col-md-4">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?w=600"
+      class="card-img-top">
+
+      <div class="card-body">
+        <h5>Valorant</h5>
+        <p>Professional Gaming League</p>
+        <button class="btn btn-success">Play Now</button>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+<!-- Tournament -->
+
+<section class="container my-5">
+
+<h2 class="text-center mb-4">
+🏆 Live Tournament
+</h2>
+
+<div class="row">
+
+<div class="col-md-4">
+
+<div class="card p-3">
+
+<h4>BGMI Championship</h4>
+
+<p>Prize Pool ₹50,000</p>
+
+<button class="btn btn-primary">
+Register
+</button>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="card p-3">
+
+<h4>Free Fire Cup</h4>
+
+<p>Prize Pool ₹30,000</p>
+
+<button class="btn btn-danger">
+Register
+</button>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="card p-3">
+
+<h4>Valorant League</h4>
+
+<p>Prize Pool ₹1,00,000</p>
+
+<button class="btn btn-success">
+Register
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Contact -->
+
+<div class="container my-5">
+
+<h2 class="text-center">
+📩 Contact Us
+</h2>
+
+<form>
+
+<input
+type="text"
+class="form-control mb-3"
+placeholder="Your Name">
+
+<input
+type="email"
+class="form-control mb-3"
+placeholder="Your Email">
+
+<textarea
+class="form-control mb-3"
+rows="4"
+placeholder="Message"></textarea>
+
+<button class="btn btn-primary">
+Send Message
+</button>
+
+</form>
+
+</div>
+
+<!-- Footer -->
+
+<footer>
+
+<h4>🎮 GameX Esports</h4>
+
+<p>© 2026 All Rights Reserved</p>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
